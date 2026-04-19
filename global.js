@@ -7,7 +7,7 @@ function $$(selector, context = document) {
 // Navigation
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"
-  : "/website/";
+  : "/portfolio/";
 
 let pages = [
   { url: '', title: 'Home' },
