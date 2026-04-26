@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Power Outage Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed a 1,500+ record U.S. power outage dataset, building end-to-end Python pipelines to engineer features, conduct hypothesis and permutation testing, and apply regression and MDA to identify key drivers of outage severity. Validated results with cross-validated models and interactive visualizations."
+  },
+  {
+    "title": "Skeletal Pandas Recreation in Java",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Reconstructed core Pandas data structures and operations from scratch in Java using linked lists, gaining a deep understanding of how dataframe internals work under the hood. Implemented key functionality including indexing, filtering, and aggregation without external libraries."
+  },
+  {
+    "title": "Neural Network Chess Bot",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a neural network chess engine in PyTorch from scratch, iterating on architecture and training strategy until the model surpassed its creator in play strength. Documented design decisions, loss curves, and training outcomes in a public GitHub repository."
+  },
+  {
+    "title": "Mice Memory Modelling Data Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Used neural and behavioral brain data to model how mice weight past experiences when making decisions, implementing a hyperbolic temporal kernel to capture memory decay. Analyzed how well the model fit observed decision patterns across experimental trials."
+  },
+  {
+    "title": "Whole Foods' Processed Foods Edge: A Category-Level Price Analysis",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Compared price per calorie and food processing levels across Whole Foods, Walmart, and Target using category-level analysis. Isolated categories where Whole Foods carries higher processing scores for fair comparisons, finding Walmart offers the lowest prices while Whole Foods outperforms Target in several categories despite its premium positioning."
+  },
+  {
+    "title": "17lands Powered Cube Data Analysis",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a clustering pipeline to analyze card performance in MTG Arena's Powered Cube, applying TF-IDF, Jaccard similarity, and UMAP manifold learning to surface draft archetypes and optimize pick decisions. Visualized card clusters to reveal synergy patterns across the cube."
+  },
+  {
+    "title": "Climate Data Dashboard",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed and built an interactive dashboard to explore decades of regional climate data, visualizing temperature trends, precipitation anomalies, and seasonal shifts. Used D3.js for dynamic charting and implemented user controls for filtering by region and date range."
+  },
+  {
+    "title": "Hospital Readmission Risk Predictor",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a logistic regression and random forest pipeline to predict 30-day hospital readmission risk from patient records. Performed feature selection, class imbalance correction via SMOTE, and model evaluation using AUC-ROC and precision-recall curves."
+  },
+  {
+    "title": "Social Network Graph Analysis",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Constructed and analyzed a large social network graph using NetworkX, computing centrality metrics, community detection via Louvain clustering, and shortest path distributions. Visualized the resulting community structure using force-directed graph layouts."
+  },
+  {
+    "title": "Personal Finance Tracker",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a full-stack personal finance web app that ingests transaction data, categorizes spending automatically, and surfaces monthly trends through interactive charts. Implemented a Python Flask backend with a lightweight vanilla JS frontend and SQLite storage."
+  },
+  {
+    "title": "Exercise Physiology Literature Review Tool",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created a Python tool to scrape, parse, and summarize exercise physiology research abstracts, clustering papers by topic using TF-IDF and k-means. Enabled rapid literature review by surfacing the most representative papers per cluster."
+  },
+  {
+    "title": "SQL Query Optimizer Visualizer",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built a visual tool to parse and display SQL query execution plans as annotated tree diagrams, helping users understand join ordering, index usage, and bottlenecks. Implemented query plan parsing in Python and rendered the output as an interactive SVG in the browser."
+  }
+]
