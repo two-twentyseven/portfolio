@@ -132,3 +132,67 @@ section {
 input, textarea, button, select {
   font-family: inherit;
 }
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 1em;
+  margin: 1em 0;
+  border: 0.5px solid oklch(80% 3% 200);
+  border-radius: 8px;
+  list-style: none;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.9em;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.chart-container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin: 1em 0;
+}
+
+.chart-container svg {
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+.legend {
+  flex: 1;
+}
+&:has(path:hover) {
+  path:not(:hover) {
+    transition: 300ms;
+    opacity: 0.5;
+  }
+}
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+path {
+  cursor: pointer;
+}
