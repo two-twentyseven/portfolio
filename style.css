@@ -196,3 +196,93 @@ input, textarea, button, select {
 path {
   cursor: pointer;
 }
+.stats {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5em 1.5em;
+  margin: 1.5em 0;
+}
+
+.stats dt {
+  font-weight: bold;
+  color: #666;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stats dd {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.gridlines line {
+  stroke: #ddd;
+  stroke-opacity: 0.5;
+}
+
+.gridlines path {
+  display: none;
+}
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25em 1em;
+  margin: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info dt {
+  color: #888;
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+dl.info dd {
+  margin: 0;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background-color: Canvas;
+  color: CanvasText;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 1em;
+  backdrop-filter: blur(4px);
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8;
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
