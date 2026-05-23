@@ -10,20 +10,29 @@
 <body>
   <h1>Meta</h1>
   <p>Stats about the code for the website</p>
+
   <div id="stats"></div>
 
   <h2>Commits by time of day</h2>
-  <div id="chart"></div>
 
-  <dl id="commit-tooltip" class="info tooltip" hidden>
-    <dt>Commit</dt>
-    <dd><a href="" id="commit-link" target="_blank"></a></dd>
-    <dt>Date</dt>
-    <dd id="commit-date"></dd>
-  </dl>
+  <div id="scrolly-1">
+    <div id="scatter-story"></div>
+    <div id="scatter-plot">
+      <div id="chart"></div>
 
-  <p id="selection-count">No commits selected</p>
-  <dl id="language-breakdown" class="stats"></dl>
+      <dl id="commit-tooltip" class="info tooltip" hidden>
+        <dt>Commit</dt>
+        <dd><a href="" id="commit-link" target="_blank"></a></dd>
+        <dt>Date</dt>
+        <dd id="commit-date"></dd>
+      </dl>
+
+      <p id="selection-count">No commits selected</p>
+      <dl id="language-breakdown" class="stats"></dl>
+    </div>
+  </div>
+
+  <dl id="files"></dl>
 
   <script type="module" src="./main.js"></script>
 </body>
